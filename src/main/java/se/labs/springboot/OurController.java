@@ -25,7 +25,7 @@ public class OurController {
     @RequestMapping("/yo/{name}")
     @ResponseBody
     String yo(@PathVariable String name) {
-        return "YO " + name;
+        return "Tjaba " + name;
     }
 
     public static void main(String[] args) throws Exception {
